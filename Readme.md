@@ -1,1 +1,1 @@
-Esse projeto vai armazenar alguns arquivos voltados para Network.
+Projeto simples de cartão para meu Linkedin.
