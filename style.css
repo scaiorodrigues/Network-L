@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  a {
+    color: #0077B5;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  #linkedin-icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
