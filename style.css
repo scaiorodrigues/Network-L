@@ -9,7 +9,6 @@
   --card-width: calc(var(--card-height) / 1.5);
 }
 
-
 body {
   min-height: 100vh;
   background: #212534;
@@ -37,7 +36,7 @@ body {
   color: rgb(88 199 250 / 0%);
   cursor: pointer;
   font-family: cursive;
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
 .card:hover {
@@ -72,8 +71,8 @@ body {
   left: 0;
   right: 0;
   z-index: -1;
-  height: 100%;
-  width: 100%;
+  height: 115%;
+  width: 110%;
   margin: 0 auto;
   transform: scale(0.8);
   filter: blur(calc(var(--card-height) / 6));
@@ -94,10 +93,10 @@ body {
   }
 }
 
-h1 {
+.name {
   font-family: sans-serif;
   font-weight: bold;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 p {
@@ -105,5 +104,13 @@ p {
   text-decoration: none;
   font-family: sans-serif;
   font-weight: bold;
-  margin-top: 0.5rem;
+  margin-top: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+.linkedin-icon {
+  height: 90%;
+  width: 90%;
+  margin: 4 auto;
 }
